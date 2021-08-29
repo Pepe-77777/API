@@ -9,3 +9,5 @@ function main(request, response) {
     })
 
 }
+
+export default main;
