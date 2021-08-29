@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function Home() {
     return(
         <html>
@@ -21,7 +23,7 @@ function Home() {
         <p>Coisas que talvez você use</p>
 
         <font size="6">
-        <a href="https://www.gunthmc.tk">Como usar</a>
+        <Link href="/howtouse"><a>Como usar</a></Link>
         </font>
 
         </center>
