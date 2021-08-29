@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
-function Home() {
+function main() {
     return(
         <html>
 
         <div className="Main">
         <head>
 
-        <title>Pepe_Java API - Inicio</title>
+        <title>Pepe_Java API - Como usar</title>
         </head>
 
         <body>
@@ -15,15 +15,20 @@ function Home() {
             <center>
                 <h1>Pepe_Java</h1>
 
-                <p>Sejá bem vindo ao Pepe_Java API!</p>
+                <p>URL's:</p>
             </center>
         </font>
 
         <center>
-        <p>Coisas que talvez você use</p>
-
         <font size="6">
-        <a href="/howtouse">Como usar</a>
+        <a href="https://pepejava.vercel.app/api/date">/api/date</a><p>Receba a DATA!</p>
+        </font>
+
+        </center>
+
+        <center>
+        <font size="6">
+        <a href="https://pepejava.vercel.app/api/developer">/api/developer</a><p>Vejá as informações do developer!</p>
         </font>
 
         </center>
@@ -34,4 +39,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default main;
