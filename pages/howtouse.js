@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function main() {
     return(
         <html>
