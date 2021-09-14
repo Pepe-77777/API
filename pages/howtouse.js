@@ -15,7 +15,7 @@ function main() {
             <center>
                 <h1>Pepe_Java</h1>
 
-                <p>URLs:</p>
+                <p>URLs</p>
             </center>
         </font>
 
